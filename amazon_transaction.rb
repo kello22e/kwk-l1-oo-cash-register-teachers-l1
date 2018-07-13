@@ -25,6 +25,7 @@ class AmazonTransaction
     x = 0 
     while x < quantity
       @items << item
+      x+=1
     end
   end
   
