@@ -26,7 +26,3 @@ class AmazonTransaction
   end
   
 end
-
-a = AmazonTransaction.new(0)
-a.total = 100
-puts a.total
