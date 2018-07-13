@@ -6,7 +6,7 @@ class AmazonTransaction
     @items = []
     @discount = discount
   end
-  
+ 
   #returns the total
   def total
     @total
@@ -24,3 +24,6 @@ class AmazonTransaction
   
 end
 
+a = AmazonTransaction.new(0)
+a.total = 100
+puts a.total
