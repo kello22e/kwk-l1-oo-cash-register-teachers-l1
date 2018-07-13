@@ -8,7 +8,7 @@ class AmazonTransaction
   end
   
   #returns the total
-  def #total
+  def total
     @total
   end
   
