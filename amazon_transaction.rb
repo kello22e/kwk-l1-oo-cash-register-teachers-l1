@@ -10,6 +10,10 @@ def AmazonTransaction
     @total
   end
   
+  def items
+    
+  end
+  
   def add_item(item, price, quantity)
     @total += (price*quantity)
     @items << item
