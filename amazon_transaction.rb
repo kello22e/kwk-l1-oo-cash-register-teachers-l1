@@ -23,3 +23,6 @@ def AmazonTransaction
   end
   
 end
+
+a = AmazonTransaction.new 
+puts a.total
