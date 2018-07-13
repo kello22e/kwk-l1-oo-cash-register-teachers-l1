@@ -11,6 +11,9 @@ class AmazonTransaction
   def total
     @total
   end
+  def total=(num)
+    @total = num
+  end
   
   #returns the array of items
   def items
