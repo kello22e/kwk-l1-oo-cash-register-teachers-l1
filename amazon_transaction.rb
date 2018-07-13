@@ -9,4 +9,6 @@ def AmazonTransaction
   def total
     @total
   end
+  
+  def
 end
