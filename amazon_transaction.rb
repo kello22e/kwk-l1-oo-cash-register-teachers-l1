@@ -5,5 +5,8 @@ def AmazonTransaction
     @items = []
     @discount = discount
   end
-  
+  #returns the total
+  def total
+    @total
+  end
 end
