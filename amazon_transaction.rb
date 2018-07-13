@@ -10,5 +10,5 @@ def AmazonTransaction
     @total
   end
   
-  def
+  def add_item
 end
