@@ -25,4 +25,7 @@ class AmazonTransaction
     @items << item
   end
   
+  def apply_discount
+    percent = (@discount / 100).to_f
+    discount @total 
 end
