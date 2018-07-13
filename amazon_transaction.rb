@@ -21,5 +21,4 @@ def AmazonTransaction
     @items << item
   end
   
-  def
 end
