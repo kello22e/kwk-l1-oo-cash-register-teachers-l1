@@ -22,7 +22,10 @@ class AmazonTransaction
   
   def add_item(item, price,quantity = 1)
     @total += (price*quantity)
-    @items << item
+    x = 0 
+    while x < quantity
+      @items << item
+    end
   end
   
   def apply_discount
