@@ -31,6 +31,7 @@ class AmazonTransaction
       @total = @total - (@total*percent)
       "After the discount, the total comes to $#{@total.to_int}."
     else
-      
+      "There is no discount to apply."
+    end
   end
 end
