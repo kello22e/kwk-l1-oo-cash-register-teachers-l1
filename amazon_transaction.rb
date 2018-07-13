@@ -28,6 +28,7 @@ class AmazonTransaction
   def apply_discount
     percent = (@discount / 100.0)
     @total = @total - (@total*percent)
+    @total.to_int
     "After the discount, the total comes to $#{@total}."
   end
 end
