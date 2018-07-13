@@ -24,5 +24,3 @@ class AmazonTransaction
   
 end
 
-a = AmazonTransaction.new(1)
-puts a.total
